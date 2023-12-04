@@ -1,0 +1,23 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: #61dafb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.733);
+  }
+  
+  app-character-list {
+    width: 100%;
+    max-width: 800px;
+  }
